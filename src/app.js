@@ -5,7 +5,7 @@ const app=express()
 
 
 app.use(cors({
-    origin: "https://your-frontend-url.vercel.app", 
+    origin: "https://frontend-six-phi-64.vercel.app/", 
     methods: "GET,POST",
     credentials: true
   }));
