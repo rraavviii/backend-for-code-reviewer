@@ -4,6 +4,7 @@ const cors=require('cors')
 const app=express()
 
 
+
 app.use(cors({
     origin: "https://frontend-six-phi-64.vercel.app/", 
     methods: "GET,POST",
